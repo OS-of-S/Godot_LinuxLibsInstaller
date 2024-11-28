@@ -36,7 +36,7 @@ machine (via VirtualBox software https://www.virtualbox.org/ ) for this purpose.
  for 32-bit OS.
  
  **FORTH**: For "Compiling for macOS (Cross-compiling from Linux)"-part testing I tried
- modern Ubuntu-20.04 and IT DOESN'T WORK ON IT AT ALL\!\!! I mean... After all issues
+ modern Ubuntu-20.04 and IT DOESN'T WORK ON IT AT ALL!!! I mean... After all issues
  solving I still got a linking error at the very end of Godot cross-compilation.
  Instead I reccomend to use this dockers https://github.com/godotengine/build-containers,
  which didn't worked on Ubuntu-20.04 for me either — install Fedora-36 straightaway.
@@ -61,8 +61,8 @@ machine (via VirtualBox software https://www.virtualbox.org/ ) for this purpose.
 
 
 ##           USAGE:
- chmod +x ./Godot_LinuxLibsInstaller.sh
- ./Godot_LinuxLibsInstaller.sh -------> to execute script.
+ *chmod +x Godot_LinuxLibsInstaller.sh*
+ *./Godot_LinuxLibsInstaller.sh* -------> to execute script.
 
 
  gedit Godot_LinuxLibsInstaller.sh ---> to show and edit script
@@ -71,17 +71,20 @@ machine (via VirtualBox software https://www.virtualbox.org/ ) for this purpose.
 
 
 ##           OPTIONS:
- Linux --------------> Install all packages mentioned on \"Compiling for Linux, *BSD\"
+ *Linux* --------------> Install all packages mentioned on "Compiling for Linux, *BSD"
                        page of official Godot documentation including additional.
-                       Note that by default (without Linux, macOS or iOS option)
-                       this script will install packeges for every of those three.
+                       Note that by default (without *Linux* or *macOS*)
+                       this script will install packeges for both.
 
- macOS --------------> Install all packages mentioned on \"Compiling for macOS\"
+ *macOS* --------------> Install all packages mentioned on "Compiling for macOS"
                        page of official Godot documentation including additional.
-                       Note that by default (without Linux, macOS or iOS option)
-                       this script will install packeges for every of those three.
+		       **Important!!!** This part has not been finished properly.
+	 	       You will probably have to solve some problems by yourself
+	               (however, some problems are solved by the script anyway.)
+                       Note that by default (without *Linux* or *macOS* option)
+                       this script will install packeges for both.
 
- DeleteGarbage ------> This option will delete all garbage (temprorary files and arcives
+ *DeleteGarbage* ------> This option will delete all garbage (temprorary files and arcives
 		       that were downloaded or compiled in the proccess.) By default it
 		       turned off 'couse in case of error you may wanna those files to be
                        saved. NOTE THAT YOU NEED TO SPECIFY OTHER OPTIONS LIKE LINUX OR
@@ -90,9 +93,9 @@ machine (via VirtualBox software https://www.virtualbox.org/ ) for this purpose.
 
 
 ##           EXEMPLE OF OPTIONS USING:
- ./Godot_LinuxLibsInstaller.sh Linux Mac DeleteGarbage -----> You can combine several
+ *./Godot_LinuxLibsInstaller.sh Linux Mac DeleteGarbage* -----> You can combine several
                                                               options by writing it after
                                                               the script name.
 
- Probably you will need chmod +x ./Godot_LinuxLibsInstaller.sh command first to make
+ Probably you will need *chmod +x Godot_LinuxLibsInstaller.sh* command first to make
  script executable.
