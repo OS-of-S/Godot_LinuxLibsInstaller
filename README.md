@@ -64,7 +64,7 @@ machine (via VirtualBox software https://www.virtualbox.org/ ) for this purpose.
 
 ##           USAGE:
  *chmod +x Godot_LinuxLibsInstaller.sh*
- *./Godot_LinuxLibsInstaller.sh* -------> to execute script.
+ *Godot_LinuxLibsInstaller.sh* -------> to execute script.
 
 
  gedit Godot_LinuxLibsInstaller.sh ---> to show and edit script
@@ -95,7 +95,7 @@ machine (via VirtualBox software https://www.virtualbox.org/ ) for this purpose.
 
 
 ##           EXEMPLE OF OPTIONS USING:
- *./Godot_LinuxLibsInstaller.sh Linux MacOS DeleteGarbage* -----> You can combine several
+ *Godot_LinuxLibsInstaller.sh Linux MacOS DeleteGarbage* -----> You can combine several
                                                               options by writing it after
                                                               the script name.
 
