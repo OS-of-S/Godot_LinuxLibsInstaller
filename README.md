@@ -16,11 +16,11 @@ machine (via VirtualBox software https://www.virtualbox.org/ ) for this purpose.
 
 **SECOND**: As stated in the official documentation:
 
-              \"Linux binaries usually won't run on distributions that are older
+              "Linux binaries usually won't run on distributions that are older
               than the distribution they were built on. If you wish to distribute
               binaries that work on most distributions, you should build them on
               an old distribution such as Ubuntu 16.04. You can use a virtual
-              machine or a container to set up a suitable build environment.\"
+              machine or a container to set up a suitable build environment."
 
  So for "Compiling for Linux, *BSD"-part I used Ubuntu 16.04.7 as it were
  recommended. (You can get it here: https://releases.ubuntu.com/xenial/ ) Some of
@@ -28,8 +28,8 @@ machine (via VirtualBox software https://www.virtualbox.org/ ) for this purpose.
  newer versions of Linux you can get much simper way to install the same libraries of
  newer versions, but Ubuntu 16.04 have a lot of difficultis on it. I tested it on
  64-bit and 32-bit Ubuntu (there is a big problem with cross-compilation for
- different bit-arcitectures). It all seemed to work normal, except \"Cross-compiling for
- RISC-V devices\" and \"Using Pyston for faster development\".
+ different bit-arcitectures). It all seemed to work normal, except "Cross-compiling for
+ RISC-V devices" and "Using Pyston for faster development".
  
  **THIRD**: For "Cross-compiling for RISC-V devices" check description inside the script!
  For "Using Pyston for faster development" note, that I didn't managed to compile  it
