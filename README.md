@@ -75,7 +75,7 @@ machine (via VirtualBox software https://www.virtualbox.org/ ) for this purpose.
 ##           OPTIONS:
  *Linux* --------------> Install all packages mentioned on "Compiling for Linux, *BSD"
                        page of official Godot documentation including additional.
-                       Note that by default (without *Linux* or *macOS*)
+                       Note that by default (without *Linux* or *macOS* options)
                        this script will install packeges for both.
 
  *macOS* --------------> Install all packages mentioned on "Compiling for macOS"
@@ -83,7 +83,7 @@ machine (via VirtualBox software https://www.virtualbox.org/ ) for this purpose.
 		       **Important!!!** This part has not been finished properly.
 	 	       You will probably have to solve some problems by yourself
 	               (however, some problems are solved by the script anyway.)
-                       Note that by default (without *Linux* or *macOS* option)
+                       Note that by default (without *Linux* or *macOS* options)
                        this script will install packeges for both.
 
  *DeleteGarbage* ------> This option will delete all garbage (temprorary files and arcives
