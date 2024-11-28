@@ -62,7 +62,8 @@ SECOND: As stated in the official documentation:
 
 
            USAGE:
- ./Godot_LinuxLibsInstaller.sh -------> to execute script.
+ chmod +x Godot_LinuxLibsInstaller.sh
+ Godot_LinuxLibsInstaller.sh -------> to execute script.
 
 
  gedit Godot_LinuxLibsInstaller.sh ---> to show and edit script
@@ -73,13 +74,16 @@ SECOND: As stated in the official documentation:
            OPTIONS:
  Linux --------------> Install all packages mentioned on \"Compiling for Linux, *BSD\"
                        page of official Godot documentation including additional.
-                       Note that by default (without Linux, macOS or iOS option)
-                       this script will install packeges for every of those three.
+                       Note that by default (without *Linux* or *macOS* options)
+                       this script will install packeges for both.
 
  macOS --------------> Install all packages mentioned on \"Compiling for macOS\"
                        page of official Godot documentation including additional.
-                       Note that by default (without Linux, macOS or iOS option)
-                       this script will install packeges for every of those three.
+                       Important\!\!! This part has not been finished properly.
+	 	       You will probably have to solve some problems by yourself
+	               (however, some problems are solved by the script anyway.)
+                       Note that by default (without Linux or macOS options)
+                       this script will install packeges for both.
 
  DeleteGarbage ------> This option will delete all garbage (temprorary files and arcives
 		       that were downloaded or compiled in the proccess.) By default it
@@ -90,11 +94,11 @@ SECOND: As stated in the official documentation:
 
 
            EXEMPLE OF OPTIONS USING:
- ./Godot_LinuxLibsInstaller.sh Linux Mac DeleteGarbage -----> You can combine several
+ Godot_LinuxLibsInstaller.sh Linux Mac DeleteGarbage -----> You can combine several
                                                               options by writing it after
                                                               the script name.
 
- Probably you will need chmod +x ./Godot_LinuxLibsInstaller.sh command first to make
+ Probably you will need chmod +x Godot_LinuxLibsInstaller.sh command first to make
  script executable.
 "
 }
