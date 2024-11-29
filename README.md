@@ -7,6 +7,8 @@ It should really simplifiy all the process.
 For installation you need a stable internet-connection and enough memory
 (for exemple, all stuff for Mac may require 45 GB of temporal files).
 
+This script's topic on a forum: https://forum.godotengine.org/t/how-to-install-everything-to-compile-godot-on-linux-ubuntu-16-04/93092
+
 **FIRST**: This script actually unofficial and is a result of nearly a month of my
 web-surfing and experimenting with libraries. You can do with it anything you
 want (modify, copy, distribute, build dockers, etc.)
