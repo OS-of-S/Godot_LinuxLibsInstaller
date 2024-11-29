@@ -356,7 +356,7 @@ fi
 # 64-bit Ubuntu to 32-bit RISC-V, if I get it right,) and — moreover, scons compiling system for Godot
 # doesn't have any option for rv32: rv64 only!
 #
-# IMPORTANT! I managed to make it work on Ubuntu-20.04, but not on Ubuntu-16.04.
+# IMPORTANT! I managed to make it work on Ubuntu-22.04, but not on Ubuntu-16.04.
 #
 if [[ $(uname -i) == "x86_64" ]]
 then
