@@ -372,13 +372,13 @@ fi
 # version of Clang, I recommend adding it to the PATH every time you
 # compile Godot as follows:
 #
-#	export PATH=$RISCV_TOOLCHAIN_PATH/bin:$PATH
+#	PATH=$RISCV_TOOLCHAIN_PATH/bin:$PATH
 #	scons arch=rv64 use_llvm=yes linker=mold lto=none target=editor \
 #	ccflags="--sysroot=$RISCV_TOOLCHAIN_PATH/sysroot --gcc-toolchain=$RISCV_TOOLCHAIN_PATH -target riscv64-unknown-linux-gnu" \
 #	linkflags="--sysroot=$RISCV_TOOLCHAIN_PATH/sysroot --gcc-toolchain=$RISCV_TOOLCHAIN_PATH -target riscv64-unknown-linux-gnu"
 #
 # If you want to make this change permanent, use the line
-#	echo "export PATH=\$RISCV_TOOLCHAIN_PATH/bin:\$PATH" >> ~/.bashrc.
+#	echo "PATH=\$RISCV_TOOLCHAIN_PATH/bin:\$PATH" >> ~/.bashrc.
 #
 # In addition, the official Godot documentation says: "the older the toolchain,
 # the more compatible our final binaries will be", and recommends installing
