@@ -190,6 +190,18 @@ sudo apt-get install -y \
   libwayland-dev
 sudo apt-get upgrade
 
+# For cross compiling: (checked only on Ubuntu-22 64-bit, and not for arm architecture.)
+sudo apt install -y \
+  libc6-dev-i386-x32-cross \
+  libc6-dev-i386 \
+  cc-multilib \
+  g++-multilib \
+  gcc-arm-linux-gnueabihf \
+  gcc-aarch64-linux-gnu \
+  cc-arm-linux-gnueabih \
+  gcc-arm-linux-gnueabi \
+  binutils-arm-linux-gnueabi
+
 # Next we install Python-3.7.
 #
 # You actually can change the version number, and it would
